@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'moon';
+    font-style: normal;
+    font-weight: 300;
+    src: local('moon'), local('moon'), url('./Moon Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'moon';
+    font-style: normal;
+    font-weight: 700;
+    src: local('moon'), local('moon'), url('./Moon Bold.otf') format('opentype');
+}

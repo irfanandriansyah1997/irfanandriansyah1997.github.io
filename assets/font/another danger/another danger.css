@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'another danger';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./another danger.otf') format('opentype');
+}
