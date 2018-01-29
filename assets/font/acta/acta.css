@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'acta';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./acta.woff2') format('opentype');
+}
