@@ -10618,11 +10618,11 @@ body {
     margin: 70px -80px 0px; }
 
 .portfolio {
-  top: 120px;
+  top: 150px;
   left: 75px;
   width: calc(100vw - 75px);
-  height: calc(85vh - 100px);
-  padding-bottom: 75px; }
+  height: calc(85vh - 155px);
+  padding-bottom: 100px; }
   .portfolio__wrapper-toggle {
     right: 90px;
     top: 38px;
@@ -10665,9 +10665,10 @@ body {
         opacity: 1; }
 
 .portfolio__galery {
-  width: 90%;
+  width: 94.5%;
   height: 100%;
   margin: 0px auto;
+  background-color: #deded6;
   -webkit-transition: background 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
   -moz-transition: background 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
   -ms-transition: background 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
@@ -10687,13 +10688,13 @@ body {
     -o-transition: transform 700ms cubic-bezier(0.8, 0, 0.55, 0.94) 700ms;
     transition: transform 700ms cubic-bezier(0.8, 0, 0.55, 0.94) 700ms; }
     .portfolio__galery__reset--left {
-      left: -80%;
+      left: calc(-75% + 3px);
       -webkit-transform: translate3d(55%, 0, 0);
       -moz-transform: translate3d(55%, 0, 0);
       -ms-transform: translate3d(55%, 0, 0);
       transform: translate3d(55%, 0, 0); }
     .portfolio__galery__reset--right {
-      right: -80%;
+      right: calc(-80% - 4px);
       -webkit-transform: translate3d(-55%, 0, 0);
       -moz-transform: translate3d(-55%, 0, 0);
       -ms-transform: translate3d(-55%, 0, 0);
