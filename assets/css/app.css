@@ -10622,6 +10622,7 @@ body {
   left: 75px;
   width: calc(100vw - 75px);
   height: calc(85vh - 155px);
+  overflow: visible;
   padding-bottom: 100px; }
   .portfolio__wrapper-toggle {
     right: 90px;
@@ -10664,6 +10665,78 @@ body {
       .portfolio__button__item:hover {
         opacity: 1; }
 
+.portfolio__item {
+  width: 100%;
+  height: 100%;
+  top: 0px; }
+  .portfolio__item__text p {
+    font-family: "europa";
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #6d6d6d;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 32px;
+    line-height: 2rem;
+    letter-spacing: 0.5px; }
+  .portfolio__item__text a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: 2px solid #c5909e;
+    border-right: 2px solid #c5909e;
+    border-top: 2px solid #c5909e;
+    border-bottom: 2px solid #c5909e;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: "europa";
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: #bb7188;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 16px;
+    line-height: 1rem;
+    margin-top: 5px;
+    -webkit-transition: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    -moz-transition: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    -ms-transition: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    -o-transition: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    transition: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99); }
+    .portfolio__item__text a:hover {
+      font-family: "europa";
+      font-weight: 400;
+      font-size: 16px;
+      font-style: normal;
+      color: #fff;
+      text-transform: none;
+      text-decoration: none;
+      line-height: 16px;
+      line-height: 1rem;
+      background-color: #bb7188;
+      border-left: 2px solid #bb7188;
+      border-right: 2px solid #bb7188;
+      border-top: 2px solid #bb7188;
+      border-bottom: 2px solid #bb7188; }
+  .portfolio__item__siluet {
+    opacity: 0.05;
+    font-family: "acta";
+    font-weight: 400;
+    font-size: 120px;
+    font-style: normal;
+    color: #3e3e3e;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 80px;
+    line-height: 5rem; }
+
+.portfolio__text {
+  width: 94.5%;
+  height: calc(85vh - 155px);
+  top: 0px; }
+
 .portfolio__galery {
   width: 94.5%;
   height: 100%;
@@ -10699,3 +10772,25 @@ body {
       -moz-transform: translate3d(-55%, 0, 0);
       -ms-transform: translate3d(-55%, 0, 0);
       transform: translate3d(-55%, 0, 0); }
+
+.headline__secondary {
+  font-family: "europa";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #989898;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 22px;
+  line-height: 1.375rem; }
+
+.headline__primary {
+  font-family: "acta";
+  font-weight: 400;
+  font-size: 55px;
+  font-style: normal;
+  color: #3e3e3e;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 80px;
+  line-height: 5rem; }
