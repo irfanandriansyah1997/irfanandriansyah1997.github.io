@@ -10723,7 +10723,7 @@ body {
       border-top: 2px solid #bb7188;
       border-bottom: 2px solid #bb7188; }
   .portfolio__item__siluet {
-    opacity: 0.05;
+    opacity: 0.1;
     font-family: "acta";
     font-weight: 400;
     font-size: 120px;
@@ -10743,7 +10743,21 @@ body {
     .portfolio__item__images img {
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      object-fit: cover;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.9s cubic-bezier(0.52, 0.01, 0.16, 1);
+      -moz-transition: all 0.9s cubic-bezier(0.52, 0.01, 0.16, 1);
+      -ms-transition: all 0.9s cubic-bezier(0.52, 0.01, 0.16, 1);
+      -o-transition: all 0.9s cubic-bezier(0.52, 0.01, 0.16, 1);
+      transition: all 0.9s cubic-bezier(0.52, 0.01, 0.16, 1); }
+      .portfolio__item__images img:hover {
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        transform: scale(1.25); }
 
 .portfolio__text {
   width: 94.5%;
