@@ -10704,7 +10704,7 @@ body {
         padding-left: 0px; }
       .portfolio__button__item:last-child {
         padding-right: 0px; }
-      .portfolio__button__item:hover {
+      .portfolio__button__item:hover, .portfolio__button__item--active {
         opacity: 1; }
 
 .portfolio__item {
