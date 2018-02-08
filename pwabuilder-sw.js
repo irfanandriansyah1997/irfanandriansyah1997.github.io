@@ -1,4 +1,4 @@
-var CACHE = 'irfan.github.io ver-0.2.0';
+var VERSION = 'irfan.github.io ver-0.2.0';
 
 this.addEventListener('install', function(e) {
   e.waitUntil(caches.open(VERSION).then(cache => {
