@@ -1,9 +1,9 @@
 //This is the service worker with the Cache-first network
 
-var CACHE = 'pwabuilder-precache';
+var CACHE = 'irfan.github.io ver-0.1.0';
 var precacheFiles = [
   '/index.html',
-  '/assets/css/app.css',
+  '/assets/app.css',
   '/assets/font/acta/acta.css',
   '/assets/font/acta/acta.woff2',
   '/assets/font/another danger/another danger.css',
