@@ -1,9 +1,11 @@
+/* eslint-disable */
 var VERSION = 'irfan.github.io ver-0.3.0';
 
 this.addEventListener('install', function(e) {
   e.waitUntil(caches.open(VERSION).then(cache => {
     return cache.addAll([
       '/index.html',
+      '/404.html',
       '/assets/app.css',
       '/assets/font/acta/acta.css',
       '/assets/font/acta/acta.woff2',
@@ -28,6 +30,7 @@ this.addEventListener('install', function(e) {
       '/assets/js/app.js',
       '/assets/js/vendor.js',
       '/assets/js/vendor-app.js',
+      '/assets/js/404.js',
       '/assets/images/1.jpg',
       '/assets/images/2.jpg',
       '/assets/images/3.jpg',
