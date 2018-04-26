@@ -1,5 +1,5 @@
 /* eslint-disable */
-var VERSION = 'irfan.github.io ver-0.4.0';
+var VERSION = 'irfan.github.io ver-0.4.1';
 
 this.addEventListener('install', function(e) {
   e.waitUntil(
